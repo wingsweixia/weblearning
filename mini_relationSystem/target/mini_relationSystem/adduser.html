@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加客户</title>
+    <link href="CSS/customer.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="mainblock">
+        <form method="post" action="customer">
+            <input type="hidden" name="Method" value="addCustomer">
+            <table class="infotable">
+                <caption>添加客户</caption>
+                <tr><td>客户名称：</td><td><input type="text" name="username"></td></tr>
+                <tr><td>客户性别：</td><td><input type="radio" value="男" name="gender">男&nbsp;&nbsp;
+                        <input type="radio" value="女" name="gender">女</td></tr>
+                <tr><td>手机：</td><td><input type="text" name="tel"></td></tr>
+                <tr><td>邮箱：</td><td><input type="text" name="email"></td></tr>
+                <tr><td>描述：</td><td><textarea name="des"></textarea></td></tr>
+                <tr><td><input type="reset" value="提交重置"></td><td><input type="submit" value="提交"></td></tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

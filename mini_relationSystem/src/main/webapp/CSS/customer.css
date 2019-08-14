@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #EEEEEE;
+}
+
+.mainblock{
+    width: 50%;
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.infotable{
+    width: 50%;
+    height: 100%;
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+}
+.infotable td{
+    border:solid 1px whitesmoke;
+    height: 30px;
+    background: #c0c4cc;
+}

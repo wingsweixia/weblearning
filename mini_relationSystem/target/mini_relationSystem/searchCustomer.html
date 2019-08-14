@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高级搜索</title>
+    <link href="CSS/customer.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="mainblock">
+    <form method="post" action="customer?Method=find&pageNum=1&pageSize=5">
+        <table class="infotable">
+            <caption>高级搜索</caption>
+            <tr><td>客户名称：</td><td><input type="text" name="username"></td></tr>
+            <tr><td>客户性别：</td><td><select name="cgender">
+                <option value="">----请选择----</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select></td></tr>
+            <tr><td>手机：</td><td><input type="text" name="tel"></td></tr>
+            <tr><td>邮箱：</td><td><input type="text" name="email"></td></tr>
+            <tr><td><input type="reset" value="重置"></td><td><input type="submit" value="搜索"></td></tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
